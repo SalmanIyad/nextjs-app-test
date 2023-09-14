@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+body {
+  background: #9378ff;
+  @apply m-8 text-gray-800;
+}
+h1, h2 {
+  @apply text-lg font-bold text-primary;
+}
+main {
+  @apply max-w-5xl px-8 mx-auto my-12;
+}
+main > h2 {
+  @apply pb-2 mb-4 text-base ;
+}
+p > a {
+  @apply underline text-primary;
+}
+
+/* nav styles */
+nav {
+  @apply
+    flex items-center max-w-5xl gap-5 pb-4 mx-auto my-10 border-b-2 border-gray-700;
+}
+nav a, nav span {
+  @apply text-gray-700;
+}
+nav a:hover {
+  @apply text-black;
+}
+main nav {
+  @apply border-0;
+}
+
+/* button styles */
+button {
+  @apply 
+    flex items-center justify-between gap-2 px-3 py-2 text-sm rounded-sm;
+}
+button:hover {
+  @apply bg-opacity-90;
+}
+.btn-primary {
+  @apply text-white bg-primary;
+}
+.btn-secondary {
+  @apply text-gray-900 bg-gray-700;
+}
+
+/* form styles */
+form {
+  @apply 
+    block w-1/4 py-4 mx-auto rounded-md px-7 bg-primary bg-opacity-5 min-w-fit;
+}
+form label {
+  @apply block;
+}
+form input,
+form textarea,
+form select {
+  @apply 
+    block w-full px-2 py-1 my-4 mt-2 rounded-sm;
+}
+form button {
+  @apply block mx-auto;
+}
+
+/* feedback styles */
+.error {
+  @apply 
+    block px-2 py-1 mx-auto my-4 text-red-800 bg-red-300 border-2 border-red-500 rounded-sm max-w-fit;
+}
+
+/* card styles */
+.card {
+  @apply 
+    relative w-[100%] sm:w-[100%] md:w-[calc(50%-0.75rem/2)] lg:w-[calc((100%/3)-(2*0.75rem/3))] px-4 py-3 overflow-hidden bg-white rounded-md shadow-sm border-b-4 border-gray-600;
+}
+.card h3 {
+  @apply 
+    mb-0 text-sm font-bold text-gray-700;
+}
+.card p {
+  @apply my-4 text-sm leading-6;
+}
+
+
+/* pill styles */
+.pill {
+  @apply 
+    inline-block px-2 py-1 mt-3 text-xs font-semibold;
+}
+.card .pill {
+  @apply 
+  absolute bottom-0 right-0 rounded-tl-md;
+}
+
+.high {
+  @apply text-red-600 bg-red-300;
+}
+.medium {
+  @apply text-blue-600 bg-blue-300;
+}
+.low {
+  @apply bg-emerald-300 text-emerald-600;
+}
+
+/* useremail styles */
+.useremail {
+  @apply font-mono text-white bg-gray-600 bg-opacity-70 !mb-8 p-2 rounded;
+}
+
+
+/* price styles */
+.price {
+  @apply 
+    inline-block px-2 py-1 mt-3 text-xs font-semibold;
+}
+
+.card .price {
+  @apply 
+    absolute bottom-0 left-0 rounded-tr-md;
+}
+
+/* type styles */
+.type {
+  @apply 
+    inline-block px-2 py-1 mt-3 text-xs font-semibold;
+}
+
+.card .type {
+  @apply 
+    absolute top-0 right-0 rounded-l-md;
+}
+
+
+/* footer styles */
+footer {
+  @apply
+    flex items-center max-w-5xl gap-5 pt-4 mx-auto my-10 border-t-2 border-gray-700;
+}
+footer * {
+  @apply text-gray-800;
+}
+footer a:hover {
+  @apply text-black;
+}
+
+::selection {
+  color: white;
+  background-color: #000000c0
+}

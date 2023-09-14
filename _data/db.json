@@ -1,0 +1,184 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "title": "Website Redesign",
+            "body": "Description for your website redesign project.",
+            "priority": "medium",
+            "user_email": "jane@example.com",
+            "price": 5000,
+            "type": "Web"
+        },
+        {
+            "id": "2",
+            "title": "Mobile App Development",
+            "body": "Description for your mobile app development project.",
+            "priority": "high",
+            "user_email": "john@example.com",
+            "price": 10000,
+            "type": "Mobile"
+        },
+        {
+            "id": "3",
+            "title": "E-commerce Platform",
+            "body": "Description for your e-commerce platform project.",
+            "priority": "low",
+            "user_email": "alice@example.com",
+            "price": 2500,
+            "type": "Web"
+        },
+        {
+            "id": "4",
+            "title": "AI Chatbot",
+            "body": "Description for your AI chatbot project.",
+            "priority": "medium",
+            "user_email": "bob@example.com",
+            "price": 7000,
+            "type": "AI"
+        },
+        {
+            "id": "5",
+            "title": "Inventory Management System",
+            "body": "Description for your inventory management project.",
+            "priority": "high",
+            "user_email": "susan@example.com",
+            "price": 8000,
+            "type": "Software"
+        },
+        {
+            "id": "6",
+            "title": "E-learning Platform",
+            "body": "Description for your e-learning platform project.",
+            "priority": "medium",
+            "user_email": "david@example.com",
+            "price": 6000,
+            "type": "Web"
+        },
+        {
+            "id": "7",
+            "title": "Social Media App",
+            "body": "Description for your social media app project.",
+            "priority": "high",
+            "user_email": "emily@example.com",
+            "price": 9000,
+            "type": "Mobile"
+        },
+        {
+            "id": "8",
+            "title": "CRM Software",
+            "body": "Description for your CRM software project.",
+            "priority": "low",
+            "user_email": "george@example.com",
+            "price": 3000,
+            "type": "Software"
+        },
+        {
+            "id": "9",
+            "title": "Weather Forecast App",
+            "body": "Description for your weather forecast app project.",
+            "priority": "medium",
+            "user_email": "hannah@example.com",
+            "price": 4500,
+            "type": "Mobile"
+        },
+        {
+            "id": "10",
+            "title": "Online Marketplace",
+            "body": "Description for your online marketplace project.",
+            "priority": "high",
+            "user_email": "isaac@example.com",
+            "price": 8500,
+            "type": "Web"
+        },
+        {
+            "id": "11",
+            "title": "Restaurant Ordering System",
+            "body": "Description for your restaurant ordering system project.",
+            "priority": "medium",
+            "user_email": "kate@example.com",
+            "price": 5500,
+            "type": "Software"
+        },
+        {
+            "id": "12",
+            "title": "Travel Booking Website",
+            "body": "Description for your travel booking website project.",
+            "priority": "high",
+            "user_email": "lucas@example.com",
+            "price": 9200,
+            "type": "Web"
+        },
+        {
+            "id": "13",
+            "title": "Fitness Tracking App",
+            "body": "Description for your fitness tracking app project.",
+            "priority": "low",
+            "user_email": "mary@example.com",
+            "price": 3500,
+            "type": "Mobile"
+        },
+        {
+            "id": "14",
+            "title": "Stock Trading Platform",
+            "body": "Description for your stock trading platform project.",
+            "priority": "medium",
+            "user_email": "nathan@example.com",
+            "price": 7500,
+            "type": "Software"
+        },
+        {
+            "id": "15",
+            "title": "Education Management System",
+            "body": "Description for your education management system project.",
+            "priority": "high",
+            "user_email": "olivia@example.com",
+            "price": 9800,
+            "type": "Web"
+        },
+        {
+            "id": "16",
+            "title": "Smart Home Automation",
+            "body": "Description for your smart home automation project.",
+            "priority": "medium",
+            "user_email": "peter@example.com",
+            "price": 5900,
+            "type": "AI"
+        },
+        {
+            "id": "17",
+            "title": "Online Banking Portal",
+            "body": "Description for your online banking portal project.",
+            "priority": "low",
+            "user_email": "quincy@example.com",
+            "price": 3200,
+            "type": "Software"
+        },
+        {
+            "id": "18",
+            "title": "Recipe Sharing App",
+            "body": "Description for your recipe sharing app project.",
+            "priority": "medium",
+            "user_email": "rachel@example.com",
+            "price": 4800,
+            "type": "Mobile"
+        },
+        {
+            "id": "19",
+            "title": "Event Management Software",
+            "body": "Description for your event management software project.",
+            "priority": "high",
+            "user_email": "sam@example.com",
+            "price": 9100,
+            "type": "Software"
+        },
+        {
+            "id": "20",
+            "title": "Weather App",
+            "body": "Description for your weather app project.",
+            "priority": "medium",
+            "user_email": "tom@example.com",
+            "price": 4300,
+            "type": "Mobile"
+        }
+    ]
+}
