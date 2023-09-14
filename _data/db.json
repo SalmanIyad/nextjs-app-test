@@ -3,182 +3,262 @@
         {
             "id": "1",
             "title": "Website Redesign",
-            "body": "Description for your website redesign project.",
+            "short_description": "Redesign of an existing website.",
+            "long_description": "This project involves redesigning an existing website to improve its user interface and enhance user experience. The goal is to create a modern and visually appealing website that aligns with the client's brand identity. The project includes revamping the layout, optimizing performance, and ensuring responsiveness for various devices.",
             "priority": "medium",
+            "user_name": "Jane Doe",
             "user_email": "jane@example.com",
             "price": 5000,
-            "type": "Web"
+            "type": "Web",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-11-30"
         },
         {
             "id": "2",
             "title": "Mobile App Development",
-            "body": "Description for your mobile app development project.",
+            "short_description": "Development of a mobile app.",
+            "long_description": "This project entails the development of a mobile application tailored to meet specific user needs. It involves creating a feature-rich app with a user-friendly interface, robust functionality, and compatibility across different mobile platforms. The primary focus is on delivering a high-quality mobile solution.",
             "priority": "high",
+            "user_name": "John Smith",
             "user_email": "john@example.com",
             "price": 10000,
-            "type": "Mobile"
+            "type": "Mobile",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-15"
         },
         {
             "id": "3",
             "title": "E-commerce Platform",
-            "body": "Description for your e-commerce platform project.",
+            "short_description": "Development of an e-commerce platform.",
+            "long_description": "Create a new e-commerce platform with features like product listings, shopping cart, secure payment processing, and user accounts. The platform should provide a seamless shopping experience for customers and effective management tools for the client.",
             "priority": "low",
+            "user_name": "Alice Johnson",
             "user_email": "alice@example.com",
             "price": 2500,
-            "type": "Web"
+            "type": "Web",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-10"
         },
         {
             "id": "4",
             "title": "AI Chatbot",
-            "body": "Description for your AI chatbot project.",
+            "short_description": "Development of an AI chatbot.",
+            "long_description": "Develop an AI-powered chatbot for customer support. The chatbot should handle common queries, provide information, and assist users effectively. It should continuously learn and improve its responses based on user interactions.",
             "priority": "medium",
+            "user_name": "Bob Anderson",
             "user_email": "bob@example.com",
             "price": 7000,
-            "type": "AI"
+            "type": "AI",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-11-25"
         },
         {
             "id": "5",
             "title": "Inventory Management System",
-            "body": "Description for your inventory management project.",
+            "short_description": "Development of an inventory management system.",
+            "long_description": "Create a comprehensive inventory management system for efficient tracking of products, stock levels, and orders. The system should provide real-time insights, improve inventory control, and streamline business operations.",
             "priority": "high",
+            "user_name": "Susan Davis",
             "user_email": "susan@example.com",
             "price": 8000,
-            "type": "Software"
+            "type": "Software",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-05"
         },
         {
             "id": "6",
             "title": "E-learning Platform",
-            "body": "Description for your e-learning platform project.",
+            "short_description": "Development of an e-learning platform.",
+            "long_description": "Build an e-learning platform with features like course management, user profiles, video lectures, quizzes, and progress tracking. The goal is to create an interactive and engaging platform for online education.",
             "priority": "medium",
+            "user_name": "David Wilson",
             "user_email": "david@example.com",
             "price": 6000,
-            "type": "Web"
+            "type": "Web",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-20"
         },
         {
             "id": "7",
             "title": "Social Media App",
-            "body": "Description for your social media app project.",
+            "short_description": "Development of a social media app.",
+            "long_description": "Create a social media app that allows users to connect, share content, and interact. It should include features like profiles, posts, comments, and messaging. The focus is on user engagement and a seamless social experience.",
             "priority": "high",
+            "user_name": "Emily Roberts",
             "user_email": "emily@example.com",
             "price": 9000,
-            "type": "Mobile"
+            "type": "Mobile",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-10"
         },
         {
             "id": "8",
             "title": "CRM Software",
-            "body": "Description for your CRM software project.",
+            "short_description": "Development of CRM software.",
+            "long_description": "Develop a Customer Relationship Management (CRM) software solution to help businesses manage interactions with customers, track leads, and improve customer service. The software should be user-friendly and customizable.",
             "priority": "low",
+            "user_name": "George Smith",
             "user_email": "george@example.com",
             "price": 3000,
-            "type": "Software"
+            "type": "Software",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-11-30"
         },
         {
             "id": "9",
             "title": "Weather Forecast App",
-            "body": "Description for your weather forecast app project.",
+            "short_description": "Development of a weather forecast app.",
+            "long_description": "Create a weather forecast app that provides real-time weather information, forecasts, and alerts. The app should offer a user-friendly interface and accurate weather data from reliable sources.",
             "priority": "medium",
+            "user_name": "Hannah Miller",
             "user_email": "hannah@example.com",
             "price": 4500,
-            "type": "Mobile"
+            "type": "Mobile",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-15"
         },
         {
             "id": "10",
             "title": "Online Marketplace",
-            "body": "Description for your online marketplace project.",
+            "short_description": "Development of an online marketplace.",
+            "long_description": "Build an online marketplace platform where vendors can list products, and customers can browse, purchase, and review them. The platform should offer secure transactions, product categorization, and a user-friendly experience.",
             "priority": "high",
+            "user_name": "Isaac Brown",
             "user_email": "isaac@example.com",
             "price": 8500,
-            "type": "Web"
+            "type": "Web",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-20"
         },
         {
             "id": "11",
             "title": "Restaurant Ordering System",
-            "body": "Description for your restaurant ordering system project.",
+            "short_description": "Development of a restaurant ordering system.",
+            "long_description": "Create an efficient restaurant ordering system for dine-in and takeout orders. The system should allow customers to browse menus, place orders, and make payments seamlessly. It should also help restaurant staff manage orders and inventory.",
             "priority": "medium",
+            "user_name": "Kate Anderson",
             "user_email": "kate@example.com",
             "price": 5500,
-            "type": "Software"
+            "type": "Software",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-10"
         },
         {
             "id": "12",
             "title": "Travel Booking Website",
-            "body": "Description for your travel booking website project.",
+            "short_description": "Development of a travel booking website.",
+            "long_description": "Build a travel booking website that enables users to search for flights, hotels, and travel packages. The website should provide a smooth booking experience, secure payment processing, and real-time availability updates.",
             "priority": "high",
+            "user_name": "Lucas Moore",
             "user_email": "lucas@example.com",
             "price": 9200,
-            "type": "Web"
+            "type": "Web",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-11-25"
         },
         {
             "id": "13",
             "title": "Fitness Tracking App",
-            "body": "Description for your fitness tracking app project.",
+            "short_description": "Development of a fitness tracking app.",
+            "long_description": "Create a fitness tracking app that helps users monitor their exercise routines, set fitness goals, and track progress. The app should offer workout plans, calorie tracking, and fitness tips to promote a healthy lifestyle.",
             "priority": "low",
+            "user_name": "Mary Turner",
             "user_email": "mary@example.com",
             "price": 3500,
-            "type": "Mobile"
+            "type": "Mobile",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-15"
         },
         {
             "id": "14",
             "title": "Stock Trading Platform",
-            "body": "Description for your stock trading platform project.",
+            "short_description": "Development of a stock trading platform.",
+            "long_description": "Develop a stock trading platform that allows users to buy and sell stocks, access market data, and manage their portfolios. The platform should provide real-time stock prices, analytics, and secure trading capabilities.",
             "priority": "medium",
+            "user_name": "Nathan Davis",
             "user_email": "nathan@example.com",
             "price": 7500,
-            "type": "Software"
+            "type": "Software",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-20"
         },
         {
             "id": "15",
             "title": "Education Management System",
-            "body": "Description for your education management system project.",
+            "short_description": "Development of an education management system.",
+            "long_description": "Build an education management system for schools and educational institutions. The system should handle student records, class schedules, grading, and communication between educators, students, and parents. It aims to streamline administrative tasks and enhance educational processes.",
             "priority": "high",
+            "user_name": "Olivia Smith",
             "user_email": "olivia@example.com",
             "price": 9800,
-            "type": "Web"
+            "type": "Web",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-11-30"
         },
         {
             "id": "16",
             "title": "Smart Home Automation",
-            "body": "Description for your smart home automation project.",
+            "short_description": "Development of a smart home automation system.",
+            "long_description": "Create a smart home automation system that allows users to control lighting, security, climate, and other home devices remotely. The system should offer convenience, energy efficiency, and customization to enhance the smart home experience.",
             "priority": "medium",
+            "user_name": "Peter Johnson",
             "user_email": "peter@example.com",
             "price": 5900,
-            "type": "AI"
+            "type": "AI",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-05"
         },
         {
             "id": "17",
             "title": "Online Banking Portal",
-            "body": "Description for your online banking portal project.",
+            "short_description": "Development of an online banking portal.",
+            "long_description": "Develop an online banking portal that enables customers to manage their accounts, transfer funds, pay bills, and access financial services securely. The portal should offer a user-friendly interface and robust security features.",
             "priority": "low",
+            "user_name": "Quincy Miller",
             "user_email": "quincy@example.com",
             "price": 3200,
-            "type": "Software"
+            "type": "Software",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-10"
         },
         {
             "id": "18",
             "title": "Recipe Sharing App",
-            "body": "Description for your recipe sharing app project.",
+            "short_description": "Development of a recipe sharing app.",
+            "long_description": "Create a recipe sharing app where users can discover, share, and save recipes. The app should include features like recipe search, meal planning, and social sharing. It aims to connect food enthusiasts and simplify the cooking experience.",
             "priority": "medium",
+            "user_name": "Rachel Anderson",
             "user_email": "rachel@example.com",
             "price": 4800,
-            "type": "Mobile"
+            "type": "Mobile",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-11-25"
         },
         {
             "id": "19",
             "title": "Event Management Software",
-            "body": "Description for your event management software project.",
+            "short_description": "Development of event management software.",
+            "long_description": "Develop event management software that helps organizers plan and execute events efficiently. The software should handle event registration, ticketing, scheduling, and attendee management. It aims to simplify event planning and enhance the attendee experience.",
             "priority": "high",
+            "user_name": "Sam Wilson",
             "user_email": "sam@example.com",
             "price": 9100,
-            "type": "Software"
+            "type": "Software",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-15"
         },
         {
             "id": "20",
             "title": "Weather App",
-            "body": "Description for your weather app project.",
+            "short_description": "Development of a weather app.",
+            "long_description": "Create a weather app that provides real-time weather information, forecasts, and alerts. The app should offer a user-friendly interface and accurate weather data from reliable sources to help users plan their activities accordingly.",
             "priority": "medium",
+            "user_name": "Tom Davis",
             "user_email": "tom@example.com",
             "price": 4300,
-            "type": "Mobile"
+            "type": "Mobile",
+            "date_created": "2023-09-14",
+            "deadline_date": "2023-12-20"
         }
     ]
 }
