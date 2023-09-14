@@ -2,9 +2,9 @@ import Link from "next/link";
 import { FiSkipBack } from 'react-icons/fi';
 
 async function getProject(id) {
-  const res = await fetch("http://localhost:4000/projects/" + id, {
+  const res = await fetch(`http://localhost:4000/projects/${id}`, {
     next: {
-      revalidate: 30,
+      revalidate: 20,
     },
   });
   return res.json();
@@ -21,7 +21,8 @@ export default async function page({ params }) {
             <h2>Project {project.id} Details</h2>
         </nav>
         <div className="card !w-full">
-            <h3 className="!w-fit border-b-2 border-gray-300">{project.title}: {project.short_description}</h3>
+            <h3 className="!w-fit max-w-[calc(100%-110px)] border-b-2 border-gray-300">{project.title}</h3>
+            <h5 className="!w-fit max-w-[calc(100%-110px)] text-xs text-gray-400">{project.short_description}</h5>
             <p>{project.long_description}</p>
             <p className="userdata !my-4 w-fit">User name: {project.user_name}</p>
             <p className="userdata !my-4 w-fit">User email: {project.user_email}</p>

@@ -7,7 +7,9 @@ async function getProjects() {
         }
     })
     return res.json()
+    
 }
+
 
 export default async function ProjectsList({ selectedOption }) {
     const projects = await getProjects();

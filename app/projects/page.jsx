@@ -18,7 +18,7 @@ export default function Page() {
     <main>
       <h1 className="pb-4 border-b-2 border-gray-700">Projects Page</h1>
       <br />
-      <FormControl variant="filled" sx={{ m: 1, minWidth: 200 }} size="small">
+      {/* <FormControl variant="filled" sx={{ m: 1, minWidth: 200 }} size="small">
         <InputLabel id="demo-select-small-label">Filter project type</InputLabel>
         <Select
           labelId="demo-select-small-label"
@@ -34,8 +34,22 @@ export default function Page() {
           <MenuItem value='Software'>Software</MenuItem>
         </Select>
         
-      </FormControl>
-     
+      </FormControl> */}
+      <form action="" method="get">
+          <select
+            className="bg-[#ffffff66] outline-none"
+            id="filter"
+            name="filter"
+            value={selectedOption}
+            onChange={handleChange}
+          >
+            <option value="none">All</option>
+            <option value="Mobile">Mobile</option>
+            <option value="Web">Web</option>
+            <option value="AI">AI</option>
+            <option value="Software">Software</option>
+          </select>
+        </form>
       <ul className="flex flex-wrap justify-stretch gap-3 align-middle mt-5">
         <ProjectsList selectedOption={selectedOption} />
       </ul>

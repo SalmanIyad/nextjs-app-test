@@ -5,13 +5,13 @@
 /* base styles */
 body {
   background: #9378ff;
-  @apply m-8 text-gray-800;
+  @apply m-4 md:m-8 text-gray-800;
 }
 h1, h2 {
   @apply text-lg font-bold text-primary;
 }
 main {
-  @apply max-w-5xl px-8 mx-auto my-12;
+  @apply max-w-5xl px-0 md:px-8 mx-auto my-12;
 }
 main > h2 {
   @apply pb-2 mb-4 text-base ;
