@@ -6,6 +6,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import Link from "next/link";
 
 export default function Page() {
   const [selectedOption, setSelectedOption] = useState('none');
@@ -16,7 +17,14 @@ export default function Page() {
 
   return (
     <main>
-      <h1 className="pb-4 border-b-2 border-gray-700">Projects Page</h1>
+      <div className="pb-4 border-b-2 border-gray-700 flex justify-between">
+        <h1 className="flex items-center">Projects Page</h1>
+        <Link href='/projects/create'>
+          <button class="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent rounded">
+            Add Project
+          </button>
+        </Link>
+      </div>
       <br />
       {/* <FormControl variant="filled" sx={{ m: 1, minWidth: 200 }} size="small">
         <InputLabel id="demo-select-small-label">Filter project type</InputLabel>
@@ -35,7 +43,8 @@ export default function Page() {
         </Select>
         
       </FormControl> */}
-      <form action="" method="get">
+      <form className="!w-[70%]" action="" method="get">
+          <label htmlFor="filter">Filter Projects Type:</label>
           <select
             className="bg-[#ffffff66] outline-none"
             id="filter"

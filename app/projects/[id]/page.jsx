@@ -1,5 +1,16 @@
 import Link from "next/link";
 import { FiSkipBack } from 'react-icons/fi';
+import { notFound } from "next/navigation"
+
+export const dynamicParams = true
+
+export async function getStaticParams(id) {
+  const res = await fetch('http://localhost:4000/project/');
+  const projects = await res.json();
+  return projects.map(project => {
+    id: project.id
+  })
+}
 
 async function getProject(id) {
   const res = await fetch(`http://localhost:4000/projects/${id}`, {
@@ -7,6 +18,11 @@ async function getProject(id) {
       revalidate: 20,
     },
   });
+
+  if (!res.ok) {
+    notFound()
+  }
+
   return res.json();
 }
 

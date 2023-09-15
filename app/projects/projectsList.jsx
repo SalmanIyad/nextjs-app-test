@@ -1,5 +1,16 @@
 import Link from "next/link";
 
+// export async function getStaticProps() {
+//     const res = await fetch('http://localhost:4000/projects');
+//     const projects = await res.json();
+//     return {
+//       props: {
+//         projects,
+//       },
+//     };
+//   }
+
+  
 async function getProjects() {
     const res = await fetch('http://localhost:4000/projects', {
         next: {
@@ -18,7 +29,7 @@ export default async function ProjectsList({ selectedOption }) {
             {
                 projects.filter((project) => selectedOption === "none" || project.type === selectedOption).map((project) => (
                     <li key={project.id} className="card">
-                        <h3 className="!w-fit border-b-2 border-gray-300">{project.title}</h3>
+                        <h3 className="!w-fit max-w-[calc(100%-100px)] border-b-2 border-gray-300">{project.title}</h3>
                         <p className="pb-2">{project.short_description}</p>
                         <p className="pb-2">Date created: {project.date_created}</p>
                         <div className={`pill ${project.priority}`}>{project.priority} priority</div>
