@@ -13,7 +13,7 @@ export async function getStaticParams(id) {
 }
 
 async function getProject(id) {
-  const res = await fetch(`http://nextjs-app-test-json-server.vercel.app/projects/${id}`, {
+  const res = await fetch(`https://nextjs-app-test-json-server.vercel.app/projects/${id}`, {
     next: {
       revalidate: 20,
     },

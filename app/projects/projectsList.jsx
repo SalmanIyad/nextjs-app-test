@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 // export async function getStaticProps() {
-//     const res = await fetch('http://nextjs-app-test-json-server.vercel.app/projects');
+//     const res = await fetch('https://nextjs-app-test-json-server.vercel.app/projects');
 //     const projects = await res.json();
 //     return {
 //       props: {
@@ -12,7 +12,7 @@ import Link from "next/link";
 
   
 async function getProjects() {
-    const res = await fetch('http://nextjs-app-test-json-server.vercel.app/projects', {
+    const res = await fetch('https://nextjs-app-test-json-server.vercel.app/projects', {
         next: {
             revalidate: 20
         }
