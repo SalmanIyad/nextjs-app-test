@@ -45,7 +45,7 @@ export default function CreateForm() {
     };
   
     try {
-      const res = await fetch('http://localhost:4000/projects', {
+      const res = await fetch('http://nextjs-app-test-json-server.vercel.app/projects', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newProject),

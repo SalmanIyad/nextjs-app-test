@@ -5,7 +5,7 @@ import { notFound } from "next/navigation"
 export const dynamicParams = true
 
 export async function getStaticParams(id) {
-  const res = await fetch('http://localhost:4000/project/');
+  const res = await fetch('http://nextjs-app-test-json-server.vercel.app/project/');
   const projects = await res.json();
   return projects.map(project => {
     id: project.id
@@ -13,7 +13,7 @@ export async function getStaticParams(id) {
 }
 
 async function getProject(id) {
-  const res = await fetch(`http://localhost:4000/projects/${id}`, {
+  const res = await fetch(`http://nextjs-app-test-json-server.vercel.app/projects/${id}`, {
     next: {
       revalidate: 20,
     },
